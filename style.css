@@ -1,115 +1,72 @@
-/* Define as propriedades para o elemento 'body' da página */
 body {
   margin: 0;
   padding: 20px;
   font-family: "Montserrat", sans-serif;
   background: #f2f2f2;
-  /* Define a cor de fundo como cinza claro */
   color: #333333;
-  /* Define a cor do texto como preto */
 }
 
-/* Define as propriedades para o elemento com a classe 'container' */
 .container {
   background-color: #ffffff;
-  /* Define a cor de fundo como branco */
   box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-  /* Adiciona uma sombra ao elemento */
   padding: 20px;
   max-width: 600px;
-  /* Define a largura máxima do elemento */
   margin: 0 auto;
-  /* Centraliza o elemento horizontalmente */
   border-radius: 5px;
-  /* Adiciona cantos arredondados ao elemento */
   margin-top: 50px;
-  /* Define uma margem superior de 50px */
 }
 
-/* Define as propriedades para o elemento 'h1' */
 h1 {
   font-size: 36px;
-  /* Define o tamanho da fonte como 36px */
   text-align: center;
-  /* Centraliza o texto horizontalmente */
   margin-top: 0;
   margin-bottom: 20px;
-  /* Define uma margem inferior de 20px */
-  color: #333333;
-  /* Define a cor do texto como preto */
+  color: lavenderblush;
+  background-color: hotpink;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-/* Define as propriedades para o elemento com a classe 'form' */
 .form {
   display: flex;
-  /* Aplica um layout flexível */
   flex-direction: column;
-  /* Alinha os elementos verticalmente em uma coluna */
   align-items: center;
-  /* Centraliza os elementos horizontalmente */
 }
 
-/* Define as propriedades para os elementos 'label' */
 label {
   font-weight: bold;
-  /* Define a fonte como negrito */
   margin-bottom: 10px;
-  /* Define uma margem inferior de 10px */
   color: #333333;
-  /* Define a cor do texto como preto */
 }
 
-/* Define as propriedades para os elementos 'input' */
 input {
   padding: 8px;
   border: 1px solid #dddddd;
-  /* Define uma borda com cor cinza claro */
   border-radius: 5px;
-  /* Adiciona cantos arredondados ao elemento */
   width: 100%;
-  /* Define a largura como 100% */
   max-width: 300px;
-  /* Define a largura máxima como 300px */
   background-color: #f2f2f2;
-  /* Define a cor de fundo como cinza claro */
   color: #333333;
-  /* Define a cor do texto como preto */
 }
 
-/* Define as propriedades para o elemento 'button' */
 button {
   background-color: #800080;
-  /* Define a cor de fundo como roxo */
   color: #ffffff;
-  /* Define a cor do texto como branco */
   border: none;
-  /* Remove a borda */
   padding: 10px 20px;
-  /* Define o preenchimento interno */
   border-radius: 5px;
-  /* Adiciona cantos arredondados ao elemento */
   margin-top: 10px;
-  /* Define uma margem superior de 10px */
   cursor: pointer;
-  /* Altera o cursor para o estilo de mão */
   transition: background-color .3s ease;
-  /*Define a transição suave da cor de fundo do botão */
 }
 
-/* Define as propriedades quando o cursor está sobre o botão */
 button:hover {
   background-color: #4b0082;
-  /* Define a cor de fundo como um tom mais escuro de roxo */
 }
 
-/* Define as propriedades para o elemento com o id 'result' */
 #result {
   margin-top: 20px;
-  /* Define uma margem superior de 20px */
   font-size: 24px;
-  /* Define o tamanho da fonte como 24px */
   font-weight: bold;
-  /* Define a fonte como negrito */
   color: #333333;
-  /* Define a cor do texto como preto */
 }
